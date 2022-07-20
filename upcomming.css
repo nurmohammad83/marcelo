@@ -45,11 +45,10 @@
     font-weight: bold;
  }
  .top-btn:hover{
-    border: 2px solid red;
     background-color: #fff;
     color: black;
-    transition: border .1s ease-in-out;
-
+    box-shadow: 1px 1px 15px white;
+    transition:  .5s ease-in-out;
  }
  
 /*  --------
@@ -115,6 +114,19 @@
     padding: 40px 15px;
     border: 1px solid black;
 }
+.view{
+   
+    text-align: center;
+    margin-top: 30px;
+ }
+ .view a{
+     text-decoration: none;
+     background-color:rgb(255, 98, 0) ;
+     padding: 12px 23px;
+     color: #fff;
+     border-radius: 8px;
+     font-weight: bold;
+ }
 /*----------- 
            Footer section
                ----------------- */
@@ -189,6 +201,7 @@ hr{
     .half{
      width: 100%;
      margin: 10px;
+     text-align: center;
     }
     .half h1{
      font-size: 35px;

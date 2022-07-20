@@ -44,10 +44,10 @@
     font-weight: bold;
  }
  .top-btn:hover{
-    border: 2px solid red;
+    box-shadow: 1px 1px 15px white;
     background-color: #fff;
     color: black;
-    transition: border .5s ease-in-out;
+    transition:.5s ease-in-out;
 
  }
 /*------------
@@ -125,6 +125,19 @@ span{
 .icon-size{
     width: 18px;
 }
+.view{ 
+    display: none; 
+   text-align: center;
+   margin: 30px;
+}
+.view a{
+    text-decoration: none;
+    background-color:rgb(255, 98, 0) ;
+    padding: 12px 23px;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+}
 /*------------------ 
              Footer section 
                      -----------------*/
@@ -199,6 +212,7 @@ hr{
    .half{
     width: 100%;
     margin: 10px;
+    text-align: center;
    }
    .half h1{
     font-size: 35px;
@@ -263,6 +277,7 @@ hr{
     .top{
         margin: 45px 25px;
     }
+    
     .top-container{
         padding: 30px;
         height: 100%;
