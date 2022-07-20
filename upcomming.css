@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*     font-family: 'Baloo Bhai 2', cursive;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;*/
+
 /*---------------
- Section top start
----------------------- */
+             Section top 
+                    ------------- */
 .top{
     margin: 50px 140px;
 }
@@ -46,25 +44,10 @@
     border-radius: 8px;
     font-weight: bold;
  }
- /* .top-btn::before{
-    content: "";
-    background: linear-gradient(gray white);
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 0;
-    height: 3px;
-    animation: top-btn 15s linear infinite;
-    transition: .3s ease-in-out;
- }
- .top-btn:hover::before{
-    width: 100%;
-    opacity: 1;
- } */
- /*---------
-  Section top end
-           ------------- */
-/* Section Mid           */
+ 
+/*  --------
+          Section Mid
+               -------------*/
 .mid{
     margin: 50px 133px;
 }
@@ -125,7 +108,9 @@
     padding: 40px 15px;
     border: 1px solid black;
 }
-/* Footer section */
+/*----------- 
+           Footer section
+               ----------------- */
 footer{
     height: 400px;
     background-color: black;
@@ -255,7 +240,9 @@ hr{
     }
  }
 
-
+ /*--------- 
+              Tablate use 
+                        ------------*/
  @media only screen and (min-width: 601px) and (max-width:768px){
     .top{
         margin: 45px 25px;
