@@ -44,6 +44,13 @@
     border-radius: 8px;
     font-weight: bold;
  }
+ .top-btn:hover{
+    border: 2px solid red;
+    background-color: #fff;
+    color: black;
+    transition: border .1s ease-in-out;
+
+ }
  
 /*  --------
           Section Mid
